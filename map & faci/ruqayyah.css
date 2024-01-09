@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Oswald';
+    letter-spacing: 2px;
+    background-color: #F2F4F5;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: #dbdcda;
+    color: black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+h2 {
+    font-family: 'Oswald';
+    margin: 0;
+    font-size: 40px; 
+}
+
+h1 {
+    font-family: 'Oswald';
+    margin: 0;
+    font-size:60px; 
+}
+
+nav {
+    display: flex;
+}
+
+.nav-box {
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s; 
+}
+
+.nav-box:hover {
+    background-color: #DFCA93;
+}
+
+nav a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    font-size: 25px; 
+    justify-items: center;
+}
+
+.p1{
+    color: #E89B2C;
+    font-size: 50px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.map-column {
+    padding-right: 20px; 
+}
+
+.facilities-images img {
+    margin-right: 10px; 
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.facilities-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facilities-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facility {
+    text-align: center;
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
+.caption {
+    font-size: 30px; 
+    margin-top: 10px;
+}
