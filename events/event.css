@@ -1,0 +1,150 @@
+body {
+  background-color: #e7ebed; 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+}
+
+h2{
+color:#e0971a;
+}
+
+/* Styles for the past programs section */
+.past-events {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  background-color: #fff; 
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding: 20px 0; 
+  width: calc(25% * 6);
+}
+
+.slide {
+  flex: 0 0 calc(100% / 6); 
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  margin-right: 3px; 
+}
+
+.slide:last-child {
+  margin-right: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+
+
+/* Styles for the Centralized Programs section */
+.centralized-programs {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; 
+}
+
+.centralized-columns {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.centralized-column {
+  width: 48%; 
+  margin-bottom: 20px;
+  padding: 15px; 
+  background-color: #f9f9f9; 
+}
+
+.centralized-column + .centralized-column {
+  margin-left: 4%;
+}
+
+.program-content {
+  position: relative;
+}
+
+.program-content img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styles for the Mahallah Programs section */
+.mahallah-programs {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px; 
+  background-color: #fff; 
+}
+
+.mahallah-columns {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.mahallah-column {
+  width: 48%; 
+  margin-bottom: 20px;
+  padding: 15px; 
+  background-color: #f9f9f9;
+}
+
+.mahallah-column + .mahallah-column {
+  margin-left: 4%; 
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+}
+ 
+
+
+
+
